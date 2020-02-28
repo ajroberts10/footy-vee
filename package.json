@@ -1,0 +1,19 @@
+{
+  "name": "footy-vee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "locally": "node -e \"console.log(require('./index').handler({}));\"",
+    "zip": "zip function.zip -r package.json *.js node_modules"
+  },
+  "author": "Adam Roberts",
+  "license": "ISC",
+  "dependencies": {
+    "ask-sdk-core": "^2.7.0",
+    "ask-sdk-model": "^1.25.2",
+    "i18next": "^19.3.2",
+    "i18next-sprintf-postprocessor": "^0.2.2"
+  }
+}
